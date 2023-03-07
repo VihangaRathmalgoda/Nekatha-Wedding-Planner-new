@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+	line-height: 1.8;
+	color: #bdc1cc;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+ }
+ 
+h3,h4,h5,h6 {
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #a59676;
+ }
+h1 {	
+	color: #d1ac5d;	
+	letter-spacing: 2px;
+	text-transform: uppercase;	
+}
+h2{
+	color: #b48f3d;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 30px;
+}
+
+
+ a {
+	font-weight: 700;
+	transition: all 0.4s ease;
+	text-decoration: none;
+ }
+ img {
+	width: 100%;
+ }
+ 
+ small {
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+ }
+ section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+ }
+ 
+ .navbar{
+	background-color: #60ca88;
+
+ }
+
+.navbar-light .navbar-nav .nav-link{
+	color: #b48f3d;	
+}
+.navbar .logo-text {
+	font-size: 22px;
+	color: #FF577F;
+ }
+
+.Cont ul li a:hover{
+    color: #b2b2b2;
+}
+
+.logo-text {
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #E93B81 !important;
+ }
+
+
+ /* home page main created topic and para */
+
+ #home {
+	background:#ffffff;
+	background-image: url("../img/8.jpg");
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+ }
+ #home h1 {
+	font-weight: 700;
+ }
+ 
+ #home p {
+	max-width: 550px;
+	margin: 18px auto;
+ }
+ 
+ .btn {
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 12px 28px;
+	border-radius: 0;
+ }
+ 
+ .btn-brand {
+	background-color: #E93B81;
+	color: #fff;
+	border-radius:23px;
+ }
+ 
+ .btn-brand:hover {
+	background-color: #FF577F;
+	color: #fff;
+ }
+
+
+
+ /* our package part */
+
+.inner{
+	overflow: hidden;
+}
+
+.inner img{
+	transition: all 1.5s ease ;
+}
+
+.inner:hover img{
+	transform: scale(1.5);
+}
+
+
+
+
+
+
+
+/*gallery*/
+.tz-gallery {
+    padding: 20px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
